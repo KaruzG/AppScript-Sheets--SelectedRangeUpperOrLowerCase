@@ -7,7 +7,7 @@ function onOpen(){ // This just creates a menu with the functions
 }
 
 
-function setSelectedUppercase() { // Function to uppercase
+function setSelectedUppercase() { // Function uppercase
   const range = SpreadsheetApp.getActiveSheet()
                               .getActiveRange();
 
@@ -17,7 +17,7 @@ function setSelectedUppercase() { // Function to uppercase
   range.setValues(values);
 }
 
-function setSelectedLowercase() { // Function to lowercase
+function setSelectedLowercase() { // Function lowercase
   const range = SpreadsheetApp.getActiveSheet()
                               .getActiveRange();
 
