@@ -6,7 +6,7 @@ Simple script to uppercase or lowercasse a selected range in a google sheet.
 | ------------- | ------------- |
 | onOpen() | Just makes a menu where you canfind the other functions |
 | setSelectedUppercase() | Gets an array of the slected cells. Then maps the array and loops through row and col applying toUpperCase(), also addresses blank cells. Then sets the result on the same range. |
-| setSelectedUppercase()  | Same with lower case.  |
+| setSelectedLowercase()  | Same with lower case.  |
 
 ## Why
 
